@@ -1,0 +1,165 @@
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+
+.btn-request-quote {
+    width: 200px;
+    height: 55px;
+    border-radius: 14px;
+    border: 1px solid #191A23;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px;
+    position: relative;
+    left: 30px;
+
+
+
+}
+
+
+.nav-link {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.nav-item {
+    gap: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .btn-request-quote {
+        margin-left: -40px;
+    }
+}
+
+
+.hero-section {
+    padding: 60px 0;
+}
+
+.hero-text h1 {
+
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hero-text p {
+    font-family: Space Grotesk;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn-consultation {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-consultation:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+
+
+@media screen and (max-width:500px) {
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+    .hero-text p {
+        font-size: 19px;
+    }
+
+    .btn-consultation {
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hero-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .hero-image img {
+        width: 85%;
+
+    }
+
+
+}
+
+.brand-logos img {
+    max-height: 40px;
+    /* Adjust height as needed */
+    margin: 5px;
+    filter: grayscale(100%);
+    /* Optional: Make logos black and white */
+    transition: filter 0.3s ease;
+}
+
+.brand-logos img:hover {
+    filter: grayscale(0);
+    /* Remove grayscale on hover */
+}
+
+
+.services-header {
+    background-color: #ccff33; /* Light green background */
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .services-text {
+    font-size: 1rem;
+    color: #333; /* Dark gray text */
+  }
